@@ -22,7 +22,7 @@ int main() {
   printf("Allocated space for a string to adress @%p\n",stringit);
 
   if (stringit==NULL) fprintf(stderr,"error\n");  //possible errors.
-  strcpy(stringit,"Haista vittu.");
+  strcpy(stringit,"I'm really f**ing bored");
 
   print_x_times(stringit,x);
 
